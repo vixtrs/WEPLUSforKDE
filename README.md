@@ -4,6 +4,8 @@
 
 WEPLUSforKDE is a Plasma 6 wallpaper plugin that loads Wallpaper Engine Scene, Web, Video, and Workshop preset wallpapers from Steam. It is a fork of [catsout/wallpaper-engine-kde-plugin](https://github.com/catsout/wallpaper-engine-kde-plugin) with an updated QML interface, Workshop tools, preset handling, and media integration.
 
+![WEPLUSforKDE wallpaper selector](docs/screenshots/selector-banner.png)
+
 **Version:** 1.0.0  
 **Author:** [@vixtrs](https://github.com/vixtrs)  
 **License:** GPL-2.0-or-later
@@ -21,6 +23,28 @@ WEPLUSforKDE is a Plasma 6 wallpaper plugin that loads Wallpaper Engine Scene, W
 - MPRIS2 metadata and album-art integration for Scene wallpapers.
 - Desktop selector with Simple, Hyprland, Glass, and Default styles.
 - Synchronous pointer forwarding to SceneViewer.
+
+## Screenshots
+
+| Wallpapers | Workshop |
+| :---: | :---: |
+| ![Wallpapers tab](docs/screenshots/wallpapers-tab.png) | ![Steam Workshop tab](docs/screenshots/workshop-tab.png) |
+
+### Selector styles
+
+| Style | Preview |
+| :--- | :--- |
+| **Default** | ![Default selector style](docs/screenshots/selector-default.png) |
+| **Glass** | ![Glass selector style](docs/screenshots/selector-glass.png) |
+| **Simple** | ![Simple selector style](docs/screenshots/selector-simple.png) |
+
+### Media integration
+
+| Interactive controls | Audio visualizer |
+| :---: | :---: |
+| ![Media controls and audio visualizer](docs/screenshots/media-controls.png) | ![Media visualizer with track information](docs/screenshots/media-visualizer.png) |
+
+![Circular audio visualizer](docs/screenshots/visualizer-circular.png)
 
 ## Requirements
 
@@ -137,6 +161,7 @@ WEPLUSforKDE is an independent community fork. It is not affiliated with Wallpap
 ## Repository layout
 
 - `com.github.catsout.wallpaperEngineKde/` — Plasma wallpaper package.
+- `docs/screenshots/` — screenshots used by this README and the KDE Store listing.
 - `install.sh`, `uninstall.sh` — Easy Setup scripts.
 - `kdestore/DESCRIPTION.md` — text for the KDE Store listing.
 - `dist/` — generated release archives (not committed).
