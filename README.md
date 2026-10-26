@@ -34,6 +34,7 @@ WEPLUSforKDE is a Plasma 6 wallpaper plugin that loads Wallpaper Engine Scene, W
 
 | Style | Preview |
 | :--- | :--- |
+| **Hyprland** | ![WEPLUSforKDE wallpaper selector](docs/screenshots/selector-banner.png) |
 | **Default** | ![Default selector style](docs/screenshots/selector-default.png) |
 | **Glass** | ![Glass selector style](docs/screenshots/selector-glass.png) |
 | **Simple** | ![Simple selector style](docs/screenshots/selector-simple.png) |
