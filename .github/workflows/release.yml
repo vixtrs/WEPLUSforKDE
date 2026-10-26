@@ -1,0 +1,31 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build KDE Store package
+        run: |
+          cd "com.github.catsout.wallpaperEngineKde"
+          zip -r "../WEPLUSforKDE-${GITHUB_REF_NAME}-kdestore.zip" . -x "*.in"
+      - name: Build Easy Setup package
+        run: |
+          zip -r "WEPLUSforKDE-${GITHUB_REF_NAME}-setup.zip" \
+            README.md LICENSE REQUIREMENTS.md install.sh uninstall.sh \
+            "com.github.catsout.wallpaperEngineKde" \
+            -x "com.github.catsout.wallpaperEngineKde/*.in"
+      - name: Publish release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            WEPLUSforKDE-*-kdestore.zip
+            WEPLUSforKDE-*-setup.zip

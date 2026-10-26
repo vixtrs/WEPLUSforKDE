@@ -1,0 +1,10 @@
+singleton Common Common.qml
+singleton Theme Theme.qml
+
+WindowModel WindowModel.qml
+PowerSource PowerSource.qml
+Pyext Pyext.qml
+VideoListModel VideoListModel.qml
+WallpaperListModel WallpaperListModel.qml
+NativeTrail NativeTrail.qml
+SelectorOverlay SelectorOverlay.qml

@@ -1,0 +1,26 @@
+{
+    "KPackageStructure": "Plasma/Wallpaper",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "@vixtrs (WEPLUSforKDE)"
+            },
+            {
+                "Name": "catsout (Base Plugin)"
+            }
+        ],
+        "Category": "",
+        "Description": "WEPLUSforKDE — Enhanced Wallpaper Engine for KDE Plasma 6 by @vixtrs",
+        "Icon": "preferences-desktop-wallpaper",
+        "Id": "com.github.catsout.wallpaperEngineKde",
+        "License": "GPLv2+",
+        "Name": "WEPLUSforKDE (Wallpaper Engine)",
+        "ServiceTypes": [
+            "Plasma/Wallpaper"
+        ],
+        "Version": "1.0.0",
+        "Website": "https://github.com/vixtrs/WEPLUSforKDE"
+    },
+    "X-KDE-ParentApp": "org.kde.plasmashell",
+    "X-Plasma-MainScript": "ui/main.qml"
+}

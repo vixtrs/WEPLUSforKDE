@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*.bak
+*.bak-*
+*.disabled
+.backups/
+.venv/
+build/
+dist/
+/release.json
+/SHA256SUMS
+*.zip
+*.tar.gz
+*.log
+.DS_Store

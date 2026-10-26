@@ -1,0 +1,6 @@
+WallpaperPage WallpaperPage.qml
+SettingPage SettingPage.qml
+AboutPage AboutPage.qml
+VideoPage VideoPage.qml
+WorkshopPage WorkshopPage.qml
+DeleteHelper DeleteHelper.qml

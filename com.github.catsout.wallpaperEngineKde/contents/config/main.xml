@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd" >
+  <kcfgfile name=""/>
+
+  <group name="General">
+    <entry name="SteamLibraryPath" type="Path">
+      <label>Steam workshop path</label>
+      <default></default>
+    </entry>
+    <entry name="WallpaperWorkShopId" type="String">
+      <label>Wallpaper workshopid</label>
+      <default></default>
+    </entry>
+    <entry name="WallpaperSource" type="Path">
+      <label>Wallpaper Source</label>
+      <default></default>
+    </entry>
+    <entry name="BackgroundColor" type="String">
+      <label>Last folder used</label>
+      <default>black</default>
+    </entry>
+    <entry name="DisplayMode" type="Int">
+      <label>Video display mode</label>
+      <default>1</default>
+    </entry>
+    <entry name="PauseMode" type="Int">
+      <label>Video Pause mode</label>
+      <default>0</default>
+    </entry>
+    <entry name="PauseFilterByScreen" type="Bool">
+      <label>Filter By Screen</label>
+      <default>true</default>
+    </entry>
+    <entry name="PauseOnBatPower" type="Bool">
+      <label>Pause when PC is on battery power</label>
+      <default>false</default>
+    </entry>
+    <entry name="PauseBatPercent" type="Int">
+      <label>Pause Battery Percent</label>
+      <default>0</default>
+    </entry>
+    <entry name="SortMode" type="Int">
+      <label>Sort mode</label>
+      <default>0</default>
+    </entry>
+    <entry name="FilterMode" type="Int">
+      <label>Filter mode</label>
+      <default>0</default>
+    </entry>
+    <entry name="VideoBackend" type="Int">
+      <label>Video Backend</label>
+      <default>1</default>
+    </entry>
+    <entry name="MuteAudio" type="Bool">
+      <label>Mute audio</label>
+      <default>true</default>
+    </entry>
+    <entry name="RandomizeWallpaper" type="Bool">
+      <label>Randomize every X minutes</label>
+      <default>false</default>
+    </entry>
+    <entry name="NoRandomWhilePaused" type="Bool">
+      <label>Prevent randomization while wallpapers are paused</label>
+      <default>false</default>
+    </entry>
+    <entry name="MpvStats" type="Bool">
+      <label>Mpv Stats</label>
+      <default>false</default>
+    </entry>
+    <entry name="MouseInput" type="Bool">
+      <label>Mouse Input</label>
+      <default>true</default>
+    </entry>
+    <entry name="TrailsEnabled" type="Bool">
+      <label>Mouse trails enabled</label>
+      <default>true</default>
+    </entry>
+    <entry name="TrailStyle" type="String">
+      <label>Mouse trail style</label>
+      <default>generic</default>
+    </entry>
+    <entry name="AnimatedPreview" type="Bool">
+      <label>Animated Preview</label>
+      <default>true</default>
+    </entry>
+    <entry name="Fps" type="Int">
+      <label>Fps</label>
+      <default>30</default>
+    </entry>
+    <entry name="SwitchTimer" type="Int">
+      <label>Change timer (in minutes)</label>
+      <default>120</default>
+    </entry>
+    <entry name="ResumeTime" type="Int">
+      <label>Resume time from paused (in ms)</label>
+      <default>300</default>
+    </entry>
+    <entry name="Volume" type="Int">
+      <label>Volume</label>
+      <default>100</default>
+    </entry>
+    <entry name="Speed" type="Double">
+      <label>Playback speed</label>
+      <default>1.0</default>
+    </entry>
+    <entry name="FilterStr" type="String">
+      <label>FilterStr</label>
+      <default></default>
+    </entry>
+    <entry name="PerOptChanged" type="Int">
+      <label>PerOptChanged</label>
+      <default>0</default>
+    </entry>
+    <entry name="CustomConf" type="String">
+      <label>CustomConf</label>
+      <default></default>
+    </entry>
+    <entry name="SelectorOpen" type="Bool">
+      <label>Selector Open (internal)</label>
+      <default>false</default>
+    </entry>
+    <entry name="HdrOutput" type="Bool">
+      <label>HDR Output</label>
+      <default>false</default>
+    </entry>
+    <entry name="SystemAudioCapture" type="Bool">
+      <label>System Audio Capture</label>
+      <default>true</default>
+    </entry>
+    <entry name="SystemPlayerCapture" type="Bool">
+      <label>System Player Capture</label>
+      <default>true</default>
+    </entry>
+    <entry name="VideoFolderPath" type="Path">
+      <label>Plain video wallpapers folder</label>
+      <default></default>
+    </entry>
+    <entry name="BlurOnPause" type="Bool">
+      <label>Blur wallpaper while paused</label>
+      <default>true</default>
+    </entry>
+    <entry name="BlurRadius" type="Int">
+      <label>Blur radius on pause</label>
+      <default>32</default>
+    </entry>
+    <entry name="BlurOnLock" type="Bool">
+      <label>Blur wallpaper when the screen is locked</label>
+      <default>false</default>
+    </entry>
+    <entry name="WaywallenBackend" type="Bool">
+      <label>Render through the waywallen daemon</label>
+      <default>false</default>
+    </entry>
+    <entry name="AccentColorFromWallpaper" type="Bool">
+      <label>Accent color from wallpaper</label>
+      <default>true</default>
+    </entry>
+    <entry name="ShowDiagnostics" type="Bool">
+      <label>Show diagnostics overlay</label>
+      <default>false</default>
+    </entry>
+    <entry name="ParallaxEnable" type="Bool">
+      <label>Mouse parallax (camera)</label>
+      <default>true</default>
+    </entry>
+    <entry name="ParallaxAmount" type="Double">
+      <label>Parallax zoom amount</label>
+      <default>0.04</default>
+    </entry>
+    <entry name="ParallaxInfluence" type="Double">
+      <label>Parallax mouse influence</label>
+      <default>0.02</default>
+    </entry>
+    <entry name="ParallaxDelay" type="Int">
+      <label>Parallax smoothing (ms)</label>
+      <default>600</default>
+    </entry>
+      <entry name="SelectorStyle" type="String">
+      <label>Wallpaper selector visual style (simple, hyprland, glass, default)</label>
+      <default>simple</default>
+    </entry>
+  </group>
+    <entry name="SceneMode" type="String">
+      <default>plugin</default>
+      <label>Scene rendering mode: plugin (base engine) or translator (experimental, additive)</label>
+    </entry>
+</kcfg>
