@@ -11,6 +11,8 @@ WEPLUSforKDE is a Plasma 6 wallpaper plugin that loads Wallpaper Engine Scene, W
 ## Features
 
 - Scene, Web, Video, and Workshop preset wallpapers.
+
+
 - Native Vulkan SceneViewer backend (`libWallpaperEngineKde.so`).
 - Scene package translation (`PKGV`, `TEXV`/`TEXB`, SceneScript polyfills).
 - Steam Workshop browser, downloader, integrity audit, and cleanup.
