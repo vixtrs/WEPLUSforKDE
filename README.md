@@ -100,7 +100,7 @@ Then restart Plasma:
 systemctl --user restart plasma-plasmashell.service
 ```
 
-## KDE Store installation
+## KDE Store installation (Not available yet)
 
 1. Open **System Settings → Wallpaper → Get New Plugins…**
 2. Search for **WEPLUSforKDE**.
